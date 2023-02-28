@@ -1,0 +1,105 @@
+html {
+
+    font-size: 62.55;
+    background-color: var(--background-color);
+    color: var(--text-text);
+    font-family: var(--font-heading);
+    background-image: url(../image/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    max-width: 1440px;
+}
+
+.cabecalho {
+    padding: 3rem 6.5rem;
+}
+
+.container {
+    display: flex;
+
+}
+
+.container img {
+    margin: 0 4rem;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text h1 {
+    font-size: var(--font-size-titulo);
+    padding: 2rem 1rem;
+    font-weight: 600;
+
+
+}
+
+.text p {
+    font-size: var(--font-size-text);
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0 1rem;
+
+}
+
+.btn {
+    padding: 0.5em 5em;
+    display: inline-block;
+    border-radius: 2rem;
+
+}
+
+
+.btn-button {
+    background-color: var(--text-text);
+    color: var(--background-color);
+    font-weight: 400;
+    font-family: var(--font-heading);
+    transition: all 0.5s ease;
+    margin-top: 2rem;
+    font-size: var(--font-size-text);
+
+}
+
+.btn-button:hover {
+    background-color: var(--text-links);
+    color: var(--text-text);
+
+}
+
+footer {
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.social a {
+    display: grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--text-text);
+    color: var(--text-text);
+    transition: all 0.4s ease;
+    font-size: var(--font-size-text);
+
+}
+
+.social a:hover {
+    color: var(--text-links);
+    border: 1px solid var(--text-links);
+
+
+}
